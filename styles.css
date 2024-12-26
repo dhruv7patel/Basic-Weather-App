@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("weather.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 50%;
+    margin:150px auto;
+    padding: 10px;
+    background-color: gray;
+    opacity: 0.8;
+    border: 5px solid coral;
+    border-radius: 20px;
+}
+
+.weather-box {
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    margin:50px auto;
+    background-color: seashell;
+    border: 5px solid coral;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    color: black;
+}
+
+.temp{
+    font-size: 1cm;
+    margin:0;
+}
+
+.location{
+    font-size: 0.6cm;
+    margin:0;
+}
+
+.time{
+    margin: 0;
+}
+
+.condition{
+    margin: 0;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid coral;
+    font-size: 1.5cap;
+}
+
+button{
+    background-color: coral;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+}
